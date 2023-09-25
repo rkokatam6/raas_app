@@ -1,0 +1,87 @@
+/* Apple-inspired VideoPlayer styles */
+
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    background-color: #f9f9f9;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  form {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  input[type="text"] {
+    flex-grow: 1;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    background-color: #eee;
+  }
+  
+  button {
+    margin-left: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #007aff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  video {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  
+  a {
+    color: #007aff;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  input[type="text"],
+  button {
+    -webkit-appearance: none;
+  }
+  
+  input[type="text"]::-webkit-input-placeholder {
+    color: #999;
+  }
+  
+  input[type="text"]::-moz-placeholder {
+    color: #999;
+  }
+  
+  input[type="text"]::-ms-input-placeholder {
+    color: #999;
+  }
+  
+  input[type="text"]::placeholder {
+    color: #999;
+  }
+  
