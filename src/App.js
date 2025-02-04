@@ -18,9 +18,6 @@ const App = () => {
       <main className="app-content">
         {showFormations ? <Formations /> : <VideoPlayer />}
       </main>
-      <footer className="app-footer">
-        <p>&copy; 2023 Your App Name. All rights reserved.</p>
-      </footer>
     </div>
   );
 };

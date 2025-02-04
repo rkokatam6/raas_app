@@ -14,7 +14,6 @@ const VideoPlayer = () => {
 
   const handleVideoSubmit = (event) => {
     event.preventDefault();
-    // Extract video ID from the YouTube link
     const videoId = extractVideoId(videoLink);
     if (videoId) {
       fetchVideoDetails(videoId);
@@ -180,11 +179,6 @@ const VideoPlayer = () => {
   };
 
 
-
-
-  
-
-  // Helper function to extract video ID from YouTube link
   const extractVideoId = (link) => {
     const videoIdMatch = link.match(/(?:[?&]v=|\/embed\/|\/[0-9a-z_-]{11})([0-9a-z_-]{11})/i);
     const unlistedIdMatch = link.match(/\/v\/([0-9a-z_-]{11})/i);
